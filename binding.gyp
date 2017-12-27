@@ -50,6 +50,7 @@
             "<!(pwd)/include"
         ],
         'libraries': [
+            '-Wl,--no-as-needed',
             '-lcblas'
         ],
         'xcode_settings': {
